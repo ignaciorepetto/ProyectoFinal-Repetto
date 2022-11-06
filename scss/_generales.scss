@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Rubik+Glitch&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    background: black;
+    display: grid;
+    }
+    header {
+    background-image: url(../img/FondoPasto.jpg);
+    background-size: cover;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    padding: 6px;
+    margin-bottom: 10px
+    }
+    a {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: white;
+        font-family:'Satisfy', cursive;
+        font-weight: bold;
+        text-shadow: 5px 5px 10px wheat;
+        margin: 20px;
+        padding: 30px;
+    }
+    h2 {
+        font-family: "Lobster Two", cursive;
+        text-align: center;
+        color: rgb(24, 7, 32);
+        background-color: wheat;
+    }
+    footer {
+        margin-top: 20px;
+        background-color: wheat;
+        color: darkslategrey;
+        font-size: 10px;
+    }
+
+
+    /* PAGINA DE CONTACTO */
+
+.logos
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+justify-items: center;
+background-image: url(../img/FondoPasto.jpg);
+background-size: cover;
+}
+.none{  
+width: 100px;
+height: 100px;
+margin-left:30px;
+margin-bottom: 40px;}
+ /* animacion de contacto para pc */
+.none:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 1s;
+} 
+
+
+
+
+/* PARAFERNALIA */
+#parafernalia .col-xl-3{
+    margin: 0 !important;
+}
+#parafernalia img{
+        width: 100%;
+        
+}
+#parafernalia img:hover{
+    border:15px solid black
+}
+#producto_parafernalia img{
+    border: 1px solid rgba(177, 160, 6, 0.541);
+    padding: 5px;
+}
+.descripcion_parafernalia{
+    text-align: center;
+    color: wheat;
+    text-shadow: 0px 6px 3px rgba(177, 160, 6, 0.767);
+}
+#precio_parafernalia{
+    background-color: rgba(177, 160, 6, 0.541);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+/* CULTIVO */
+#cultivo .col-xl-3 {
+    margin: 0 !important;
+    
+}
+
+#cultivo img{
+    width: 100%;
+}
+
+#cultivo img:hover{
+    border: 5px solid black;
+}
+
+
+#producto_cultivo img{
+    border: 1px solid rgba(177, 160, 6, 0.541);
+    padding: 5px;
+}
+.descripcion_cultivo{
+    text-align: center;
+    color: wheat;
+    text-shadow: 0px 6px 3px rgba(177, 160, 6, 0.767);
+}
+#precio_cultivo{
+    background-color: rgba(177, 160, 6, 0.541);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+/*  ENVIOS */
+.header {
+    background-color: wheat;
+    border-radius: 5px;
+    color: #010102;
+    font-size: 27px;
+    padding: 10px;
+    font-family: "Lobster Two", cursive;
+    text-align: center;
+
+}
+#divenvio{
+    display: grid;
+    justify-items: center;
+    padding-bottom: 10px
+}

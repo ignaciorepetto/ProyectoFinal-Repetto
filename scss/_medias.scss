@@ -1,0 +1,23 @@
+@media (min-width:768px) {
+    nav, ul, li, a {
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+        justify-content: space-around;
+}
+.inicio{
+    width: 80vh;}
+}
+
+
+@media (min-width:1024px) {
+.logos{margin: 10px;
+    padding-bottom: 50px;
+}
+.none{
+    margin: 50px;
+    padding: 4px;
+}
+
+
+}
